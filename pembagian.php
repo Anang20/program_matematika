@@ -18,7 +18,7 @@ while($keluar)
 
      // Tampilkan hasil perhitungan
 
-     echo "hasil dari $angka_pertama dan $angka_kedua adalah :".($angka_pertama/$angka_kedua)."\n";
+     echo "hasil dari $angka_pertama : $angka_kedua adalah :".($angka_pertama/$angka_kedua)."\n";
 
      // cek logika user untuk mengulangi
 

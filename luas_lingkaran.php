@@ -6,11 +6,11 @@ while($out)
     echo "\nRumus Luas Lingkaran\n";
     echo "\n=======================\n";
      
-    $phi=22/7;
+    $phi=pi();
     $jari=readline("Masukkan jari jarinya:");
 
     // validasi
-    if(!is_numeric($phi)|| !is_numeric($jari))
+    if(!is_numeric($jari))
     {
        echo "Input hanya angka yang diijinkan, dan tidak boleh menggunakan spasi ...!";
        continue;
@@ -18,7 +18,9 @@ while($out)
 
 //    hasil
 
-    echo "Hasil luas lingkarannya adalah : ".($phi*$jari^2)."\n";
+$hasil=$phi*($jari**2);
+
+    echo "Hasil luas lingkarannya adalah : ".$hasil."\n";
 
 
 
